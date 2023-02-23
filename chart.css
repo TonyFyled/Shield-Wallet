@@ -1,0 +1,103 @@
+.chart{
+  text-align: center;
+  padding: 50px 20px ;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+}
+.chartword{
+  position: absolute;
+  top:20px;
+  padding: 20px;
+  text-align: left;
+}
+.chartword1{
+  position: absolute;
+  top: 150px;
+  padding: 20px;
+  text-align: left;
+}
+.chartword, .chartword1 h1{
+  font-size: 32px;
+}
+.chartword, .chartword1 p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.deep, .deep1, .deep2, .deep3, .deep4, .deep5, .deep6, .deep7, .deep8, .deep9, .deep10{
+  background-color: #1D3557;
+  width: 50px;
+  height: 70px;
+  margin: 0 20px;
+}
+.light, .light1, .light2, .light3, .light4, .light5, .light6, .light7, .light8, .light9, .light10{
+  background-color: #5CCBF5;
+  width: 100%;
+  height: 50%;
+  border: none;
+}
+.deep1{
+  height: 100px;
+}
+.deep2{
+  height: 120px;
+}
+.deep3{
+  height: 150px;
+}
+.deep4{
+  height: 180px;
+}
+.deep5{
+  height: 210px;
+}
+.deep6{
+  height: 270px;
+}
+.deep7{
+  height: 320px;
+}
+.deep8{
+  height: 380px;
+}
+.deep9{
+  height: 420px;
+}
+.deep10{
+  height: 460px;
+}
+.light1{
+  height: 60%;
+}
+.light2{
+  height: 55%;
+}
+.light3{
+  height: 60%;
+}
+.light4{
+  height: 60%;
+}
+.light5{
+  height: 55%;
+}
+.light6{
+  height: 55%;
+}
+.light7{
+  height: 55%;
+}
+.light8{
+  height: 50%;
+}
+.light9{
+  height: 50%;
+}
+.light10{
+  height: 50%;
+}
+
+
