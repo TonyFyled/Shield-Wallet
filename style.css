@@ -110,11 +110,12 @@ body{
 }
 .section-heading{
   margin: auto;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 24px;
   font-weight: 800;
   padding: 50px;
   text-align: center;
+  letter-spacing: 1px;
 }
 .head{
   font-size: 50px;
@@ -125,7 +126,6 @@ body{
 .meh{
   font-size: 30px;
 }
-.diagram
 .section-content{
   margin: auto;
   text-align: center;
@@ -138,6 +138,12 @@ body{
 }
 .width1{
   width: 70%;
+}
+.ptb30{
+  padding: 30px 0;
+}
+.pb30{
+  padding-bottom: 30px;
 }
 .pb20{
   padding-bottom: 20px;
@@ -205,12 +211,14 @@ body{
   background-color: #203859;
   padding: 50px;
   position: relative;
+  width: 100%;
 }
 .hero-img{
   position: absolute;
   top: -30px;
   right: -10px;
 }
+
 .entire{
   display: flex;
   justify-content: space-between;
@@ -344,8 +352,12 @@ body{
   justify-content: space-between;
   text-align: start;
 }
+.box h5{
+  font-size: 18px;
+  font-weight: 800;
+}
 .box{
-  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 4px 11px rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 10px;
   margin: 20px 0;
@@ -356,8 +368,8 @@ body{
 }
 .box p{
   width: 250px;
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
 }
 .box-content > *{
   padding: 2px;
@@ -450,7 +462,7 @@ body{
   padding: 9px;
 }
 .persona img{
-  width: 510px;
+  width: 450px;
   border-radius: 20px;
 }
 .personablue{
@@ -461,15 +473,17 @@ body{
 }
 .personabox{
   border-radius: 16px;
-  padding: 15px;
+  padding: 30px;
   width: 100%;
 }
 .personabox h1{
   padding-bottom: 10px;
 }
 .personabox p{
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-top: 3px;
 }
 .personaplain{
   border-radius: 16px;
@@ -482,8 +496,11 @@ body{
 .personaplain i{
   padding: 10px;
 }
-.left > *, .right > *{
+.left > *{
   margin-bottom: 9px;
+}
+.right > *{
+  margin-bottom: 15px;
 }
 .right h3{
   padding-bottom: 20px;
