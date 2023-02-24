@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  .deep, .deep1, .deep2, .deep3, .deep4, .deep5, .deep6, .deep7, .deep8, .deep9, .deep10{
+    margin: 0 7px;
+  }
+  .chartword{
+    top: 10px;
+    padding: 10px;
+    text-align: left;
+  }
+  .chartword1{
+    top: 150px;
+    padding: 10px;
+    text-align: left;
+  }
+  .chartword, .chartword1 h1{
+    font-size: 40px;
+  }
+  .chartword, .chartword1 p{
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+@media (max-width: 500px) {
+  .chart{
+    text-align: center;
+    padding: 30px 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+  }
+  .chartword{
+    position: absolute;
+    top:10px;
+    padding: 10px;
+    text-align: left;
+  }
+  .chartword1{
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    text-align: left;
+  }
+  .chartword, .chartword1 h1{
+    font-size: 18px;
+  }
+  .chartword, .chartword1 p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .deep, .deep1, .deep2, .deep3, .deep4, .deep5, .deep6, .deep7, .deep8, .deep9, .deep10{
+    width: 20px;
+    margin: 0px;
+  }
+  .chartword, .chartword1 p{
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .chart{
+    padding: 30px 0px ;
+  }
+  .bar-chart p{
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}

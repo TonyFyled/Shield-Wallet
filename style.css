@@ -125,6 +125,7 @@ body{
 .meh{
   font-size: 30px;
 }
+.diagram
 .section-content{
   margin: auto;
   text-align: center;
@@ -235,6 +236,12 @@ body{
   font-weight: 300;
   font-size: 20px;
 }
+.button-groups{
+  text-align: center;
+}
+.button-groups .group{
+  text-align: start;
+}
 .button-groups button{
   padding: 14px 18px;
   border-radius: 30px;
@@ -316,13 +323,18 @@ body{
   padding: 15px;
 }
 .competitive-wordings p{
-  width: 55%;
+  width: 100%;
   padding: 2px;
   font-size: 18px;
   font-weight: 300;
 }
 .competitive-wordings i{
   padding: 5px;
+}
+.comp-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .comments{
   padding: 20px 0;
@@ -332,6 +344,7 @@ body{
   justify-content: space-between;
   text-align: start;
 }
+.bar
 .box{
   box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -391,7 +404,7 @@ body{
 .group1 > *{
  margin: 10px;
 }
-
+.button-groups
 .group button:first-child{
   background-color: rgba(69, 123, 157, 0.1);
 }
@@ -449,15 +462,15 @@ body{
 }
 .personabox{
   border-radius: 16px;
-  padding: 30px;
+  padding: 15px;
   width: 100%;
 }
 .personabox h1{
   padding-bottom: 10px;
 }
 .personabox p{
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
 }
 .personaplain{
   border-radius: 16px;
@@ -493,6 +506,11 @@ body{
 .diagram img{
   width: 80%;
   padding-top: 40px;
+}
+.wireframe-img img{
+  width: 279px;
+  height: 604px;
+  padding: 10px;
 }
 .hi-designs{
   padding: 50px;
