@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .mainimages{
     display: flex;
     flex-direction: column;
@@ -401,5 +401,27 @@
   }
   .competitive-wordings p{
     width: 100%;
+  }
+  .big-logo{
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .wireframe-img img{
+    width: 90px;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+  }
+  .user-content-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 0;
+  }
+  .user-content-grid img{
+    width: 75px;
+    height: 76px;
+    margin: 15px 7px;
   }
 }
